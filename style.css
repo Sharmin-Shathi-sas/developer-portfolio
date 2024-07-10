@@ -25,10 +25,12 @@
     margin: 0px;
 }
 
+.description-text {
+    opacity: 70%;
+}
 .description-paragraph {
     margin: 0px;
     padding: 24px 73px 0px 73px;
-    opacity: 70%;
     font-weight: 400px;
 }
 
@@ -48,10 +50,6 @@
 
 }
 
-.ambition-container {
-    background-color: rgba(13, 19, 33, 0.02);
-}
-
 .reasoning-section {
     text-align: center;
 }
@@ -67,6 +65,7 @@
 
 .ambition-part {
     padding: 7%;
+    background-color: rgba(13, 19, 33, 0.02);
 }
 
 .card {
@@ -77,20 +76,36 @@
     gap: 10%;
     padding: 48px;
 }
-.card-paragraph{
+
+.card-paragraph {
     color: rgb(13, 19, 33);
     margin-top: 16px;
     margin-bottom: 0;
 }
+
 .card-button {
     padding: 12px 20px 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.9;
     margin-top: 32px;
 }
-.inspiration-section{
+
+.inspiration-section {
     margin-top: 88px;
 }
-.inspiration-description{
+
+.inspiration-description {
     text-align: center;
+    margin: 0% 10% 5% 10%;
+
+}
+
+iframe {
+
+    padding: 2%;
+    /* background-color: bisque; */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    background-size: cover;
+    border-radius: 35px;
 }
