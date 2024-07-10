@@ -109,3 +109,31 @@ iframe {
     background-size: cover;
     border-radius: 35px;
 }
+.target-text{
+    margin-top: 148px;
+    text-align: center;
+}
+.target-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin: 48px;
+}
+.target-topic{
+    padding: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+#target-html{
+    background-color:  rgba(255, 76, 30, 0.05);;
+}
+#target-css{
+    background-color: rgba(0, 76, 232, 0.05);;
+}
+#target-js{
+background-color: rgba(255, 223, 0, 0.05);;
+}
+.learn-anchor{
+    margin-top: 12px;
+    color: #0D1321;;
+}
