@@ -1,0 +1,96 @@
+.banner {
+    background-image: url('assets/Hero-bg.png');
+    padding-bottom: 35px;
+    background-size: cover;
+}
+
+.banner-img {
+    display: block;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.banner-description {
+    text-align: center;
+    margin-left: 221px;
+    margin-right: 221px;
+}
+
+.description-heading {
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 48px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+}
+
+.description-paragraph {
+    margin: 0px;
+    padding: 24px 73px 0px 73px;
+    opacity: 70%;
+    font-weight: 400px;
+}
+
+.description-button {
+    height: 66px;
+    width: 208px;
+    color: white;
+    background-color: #0D1321;
+    font-size: larger;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.main-part {
+    margin: 7% 9% 0% 9%;
+    /* padding: 80px 97px 0px 97px; */
+
+}
+
+.ambition-container {
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.reasoning-section {
+    text-align: center;
+}
+
+.ambition-heading {
+    font-size: 250%;
+}
+
+.ambition-text {
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.ambition-part {
+    padding: 7%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 48px;
+}
+.card-paragraph{
+    color: rgb(13, 19, 33);
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.card-button {
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.9;
+    margin-top: 32px;
+}
+.inspiration-section{
+    margin-top: 88px;
+}
+.inspiration-description{
+    text-align: center;
+}
