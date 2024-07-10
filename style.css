@@ -117,7 +117,7 @@ iframe {
     display: flex;
     justify-content: space-between;
     gap: 2%;
-    margin: 48px;
+    margin: 48px 0px;
 }
 .target-topic{
     padding: 40px;
@@ -136,4 +136,47 @@ background-color: rgba(255, 223, 0, 0.05);;
 .learn-anchor{
     margin-top: 12px;
     color: #0D1321;;
+}
+.support-section{
+    background-image: url('assets/handshake.jpg');
+    width: 92%;
+    height: 100%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-position: cover;
+    border-radius: 10px;
+    padding: 64px 48px;
+    margin-top: 20px;
+}
+.input-field{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    height: 12%;
+    width: 55%;
+    padding: 1%;
+    font-size: 10px;
+    margin-top: 24px;
+}
+.submit-button{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    height: 8%;
+    width: 10%;
+    margin-left: 20px;
+    padding: 10px 13px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 50px 120px;
+}
+.link-container{
+    display: block;
+    width: 20%;
+   display: flex;
+   flex-direction: column;
+}
+.social-links{
+    margin-right: 12px;
 }
